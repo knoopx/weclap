@@ -1,0 +1,19 @@
+{
+  "name": "weclap",
+  "version": "1.0.0",
+  "description": "WeMo Light Clap-Clap Switch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "weclap": "bin/weclap.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.13.1",
+    "wemo-client": "^0.8.0"
+  }
+}

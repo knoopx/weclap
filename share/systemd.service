@@ -1,0 +1,14 @@
+[Unit]
+Description=weclap
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/node /usr/bin/weclap start
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=weclap
+
+[Install]
+WantedBy=multi-user.target
